@@ -83,7 +83,7 @@ module Babushka
       if Dir.exist?(prefix / "Library/Formula") # Indicates a legacy installation
         prefix
       else
-        prefix / "Homebrew"
+        prefix
       end
     end
   end
